@@ -17,10 +17,21 @@
     --green: #859900;
 }
 
+body.dark {
+    --b3: var(--base03);
+    --b2: var(--base02);
+    --b1: var(--base1);
+}
+
 body {
-    background-color: var(--base3);
-    font-family: "Courier New", monospace;
+    --b3: var(--base3);
+    --b2: var(--base2);
+    --b1: var(--base01);
+
+    background-color: var(--b3);
+    font-family: "Consolas", monospace;
     text-align: center;
+    color: var(--b1);
 }
 
 a:link {
@@ -33,7 +44,7 @@ a:visited {
 
 #title {
     font-size: larger;
-    background-color: var(--base2);
+    background-color: var(--b2);
     display: inline-block;
     padding: 10px;
 }
@@ -70,7 +81,7 @@ a:visited {
 
 .rectangle {
     max-width: 600px;
-    background-color: var(--base2);
+    background-color: var(--b2);
     padding: 0 10px 10px 10px;
     margin: 10px;
 }
