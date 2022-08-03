@@ -20,18 +20,25 @@
 body.dark {
     --b3: var(--base03);
     --b2: var(--base02);
-    --b1: var(--base1);
+    --b1: var(--base01);
+    --b01: var(--base1);
+    --b02: var(--base2);
+    --b03: var(--base3);
 }
 
 body {
     --b3: var(--base3);
     --b2: var(--base2);
-    --b1: var(--base01);
+    --b1: var(--base1);
+    --b01: var(--base01);
+    --b02: var(--base02);
+    --b03: var(--base03);
 
     background-color: var(--b3);
-    font-family: "Consolas", monospace;
+    font-family: monospace;
+    color: var(--b01);
+    font-size: large;
     text-align: center;
-    color: var(--b1);
 }
 
 a:link {
@@ -47,10 +54,12 @@ a:visited {
     background-color: var(--b2);
     display: inline-block;
     padding: 10px;
+    margin: 10px;
 }
 
 #navigation {
-    padding: 10px;
+    padding: 5px;
+    line-height: 100%;
 }
 
 #home-button {
