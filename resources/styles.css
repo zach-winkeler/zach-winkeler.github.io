@@ -42,11 +42,11 @@ body {
 }
 
 a:link {
-    color: var(--blue);
+    color: var(--cyan);
 }
 
 a:visited {
-    color: var(--violet);
+    color: var(--cyan);
 }
 
 #title {
@@ -67,10 +67,14 @@ a:visited {
 }
 
 #teaching-button {
-    color: var(--yellow);
+    color: var(--orange);
 }
 
 #research-button {
+    color: var(--yellow);
+}
+
+#code-button {
     color: var(--green);
 }
 
@@ -78,7 +82,11 @@ a:visited {
     color: var(--blue);
 }
 
-#other-button {
+#light-mode-button {
+    color: var(--violet);
+}
+
+#dark-mode-button {
     color: var(--violet);
 }
 
@@ -113,3 +121,5 @@ ul {
 .ascii-art {
     text-align: left;
 }
+
+.invisible { display: none; }

@@ -1,60 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="keywords" content="zachary, winkeler, topology, graduate, student, knot, theory, dartmouth, math">
-    <meta name="description" content="Zachary Winkeler's Homepage">
-    <meta name="author" content="Zachary Winkeler">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="keywords" content="zachary, winkeler, topology, graduate, student, knot, theory, dartmouth, math">
+  <meta name="description" content="Zachary Winkeler's Homepage">
+  <meta name="author" content="Zachary Winkeler">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="icon" type="image/png" href="resources/trefoil.png"/>
-    <link rel="stylesheet" href="resources/styles.css">
+  <link rel="icon" type="image/png" href="resources/trefoil.png"/>
+  <link rel="stylesheet" href="resources/styles.css">
 
-    <title>Zachary Winkeler</title>
+  <title>Zachary Winkeler</title>
 </head>
 <body>
 <header>
-    <div id="title">
-        <div id="name">
-            Zachary Winkeler
-        </div>
-        <div id="description">
-            Mathematics PhD Student @ Dartmouth College
-        </div>
+  <div id="title">
+    <div id="name">
+      Zachary Winkeler
     </div>
-    <nav id="navigation">
-        <a id="home-button" class="nav-button" href="index.html">Home</a>
-        <a id="teaching-button" class="nav-button" href="teaching.html">Teaching</a>
-        <a id="research-button" class="nav-button" href="research.html">Research</a>
-        <a id="cv-button" class="nav-button" href="resources/cv.pdf" target="_blank">CV</a>
-        <a id="other-button" class="nav-button" href="other.html">Other</a>
-    </nav>
+    <div id="description">
+      Visiting Assistant Professor @ Smith College
+    </div>
+  </div>
+  <nav id="navigation">
+    <a id="home-button" class="nav-button" href="index.html">Home</a>
+    <a id="teaching-button" class="nav-button" href="teaching.html">Teaching</a>
+    <a id="research-button" class="nav-button" href="research.html">Research</a>
+    <a id="code-button" class="nav-button" href="code.html">Code</a>
+    <a id="cv-button" class="nav-button" href="resources/cv.pdf" target="_blank">CV</a>
+    <a id="dark-mode-button" class="nav-button" onclick="darkMode()" href="#">Dark Mode</a>
+    <a id="light-mode-button" class="nav-button" onclick="lightMode()" href="#">Light Mode</a>
+  </nav>
+
+  <script src="header.js" type="text/javascript"></script>
 </header>
 
 <div id="content">
-    <div class="rectangle-container">
-        <div class="rectangle">
-            <h3>Research Interests:</h3>
-            <ul>
-                <li>Generalizations of Khovanov homology</li>
-                <li>Spectral sequences relating knot homology theories</li>
-                <li>Computing knot homologies (e.g. knot Floer homology)</li>
-            </ul>
-        </div>
-        <div class="rectangle">
-            <h3>Coding projects:</h3>
-            <ul>
-                <li>Implementing Nate Dowlin's spectral sequence from Khovanov homology to tangle Floer homology
-                    (with S. Tripp, <a href="https://github.com/zach-winkeler/khovanov-ss">GitHub</a>).</li>
-                <li>Calculating Ina Petkova's and Vera Vértesi's tangle Floer homology (with S. Tripp, <a href="https://github.com/samueltripp/tanglefloer">GitHub</a>).</li>
-            </ul>
-        </div>
-        <div class="rectangle">
-            <h3>Papers:</h3>
-            <ul>
-                <li>"Khovanov homology for links in thickened multipunctured disks" (<a href="https://arxiv.org/abs/2106.03834">arXiv link</a>)</li>
-                <li>"On the invariance of the Dowlin spectral sequence" (with S. Tripp, <a href="https://arxiv.org/abs/2207.14415">arXiv link</a>)</li>
-            </ul>
-        </div>
+  <div class="rectangle-container">
+    <div class="rectangle">
+      <h3>Research Interests:</h3>
+      <ul>
+        <li>Generalizations of Khovanov homology</li>
+        <li>Spectral sequences relating knot homology theories</li>
+        <li>Computing knot homologies (e.g. knot Floer homology)</li>
+      </ul>
     </div>
+    <div class="rectangle">
+      <h3>Papers:</h3>
+      <ul>
+        <li>"Khovanov homology for links in thickened multipunctured disks" (<a href="https://arxiv.org/abs/2106.03834">arXiv
+          link</a>)
+        </li>
+        <li>"On the invariance of the Dowlin spectral sequence" (with S. Tripp, <a
+                href="https://arxiv.org/abs/2207.14415">arXiv link</a>)
+        </li>
+      </ul>
+    </div>
+  </div>
 </div>
