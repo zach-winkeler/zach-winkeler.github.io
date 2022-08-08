@@ -1,4 +1,12 @@
-if (localStorage.getItem('darkMode') === 'true') {
+localString = localStorage.getItem('darkMode');
+
+if (localString === null) {
+    darkModeEnabled = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+} else {
+    darkModeEnabled = (localString === 'true');
+}
+
+if (darkModeEnabled) {
     darkMode();
 } else {
     lightMode();
