@@ -103,9 +103,11 @@ a:visited {
     margin: 10px;
 }
 
-h3 {
+h2 {
     font-weight: normal;
     text-decoration: underline;
+    display: block;
+    font-size: 1.2em;
 }
 
 ul {
