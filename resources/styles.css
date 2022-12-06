@@ -111,6 +111,7 @@ h2 {
 }
 
 ul {
+    padding: 0px 20px 0px 20px;
     list-style-position: inside;
     text-align: left;
 }
