@@ -29,7 +29,7 @@ export const SITE = {
   author: "Sat Naing",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
   title: "AstroPaper",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "torus-knot-og.png",
   lightAndDarkMode: true,
   postPerPage: 3,
 };
