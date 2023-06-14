@@ -7,7 +7,7 @@ import logoPNG from "/assets/logo.png";
 import logoSVG from "/assets/logo.svg";
 
 export interface Props {
-  activeNav?: "research" | "teaching" | "code" | "posts" | "tags" | "search";
+  activeNav?: "research" | "teaching" | "code" | "posts" | "tags";
 }
 
 const { activeNav } = Astro.props;
@@ -78,11 +78,11 @@ const { activeNav } = Astro.props;
               Posts
             </a>
           </li>
-          <li>
-            <a href="/tags" class={activeNav === "tags" ? "active" : ""}>
-              Tags
-            </a>
-          </li>
+          <!--<li>-->
+          <!--  <a href="/tags" class={activeNav === "tags" ? "active" : ""}>-->
+          <!--    Tags-->
+          <!--  </a>-->
+          <!--</li>-->
           <li>
             {
               SITE.lightAndDarkMode && (
@@ -150,7 +150,7 @@ const { activeNav } = Astro.props;
     @apply col-span-1;
   }
   nav a.active {
-    @apply underline decoration-wavy decoration-2 underline-offset-4;
+    @apply underline decoration-2 underline-offset-4;
   }
   nav a.active svg {
     @apply fill-skin-accent;
