@@ -34,15 +34,6 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       <p>
         Read the posts below or check the section tabs at the top of the page for more info.
       </p>
-      {
-        // only display if at least one social link is enabled
-        socialCount > 0 && (
-          <div class="social-wrapper">
-            <div class="social-links">Social Links:</div>
-            <Socials />
-          </div>
-        )
-      }
     </section>
 
     <Hr />
