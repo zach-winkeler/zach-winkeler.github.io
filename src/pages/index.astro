@@ -37,14 +37,18 @@ const posts = await getCollection("blog");
         </section>
         <Hr/>
         <section id="info">
-            <ul>
-                <li><u>Office</u>: <p>Burton 303</p></li>
-                <li><u>Address</u>: <p>Clark Science Center<br>
-                    Smith College<br>
-                    44 College Lane<br>
-                    Northampton, MA 01063
-                </p>
-            </ul>
+            <h2>Office</h2>
+            <p>
+                Burton 303
+            </p>
+            <br>
+            <h2>Address</h2>
+            <p>
+                Clark Science Center<br>
+                Smith College<br>
+                44 College Lane<br>
+                Northampton, MA 01063
+            </p>
         </section>
         <Hr/>
 
@@ -125,6 +129,10 @@ const posts = await getCollection("blog");
     #info {
          @apply pt-8 pb-6;
      }
+
+    #info h2 {
+        @apply text-2xl font-semibold tracking-wide;
+    }
 
     .social-wrapper {
         @apply mt-4 flex flex-col sm:flex-row sm:items-center;
