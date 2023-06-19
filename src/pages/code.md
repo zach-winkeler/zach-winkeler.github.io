@@ -10,7 +10,7 @@ id: "code"
 
 ### Other coding projects
 - Class Project: Finding derivatives in Haskell and outputting LaTeX ([GitHub](https://github.com/zach-winkeler/calculus-solver))
-- Creating a website to host combinatorial games ([Play](games/index.html) | [GitHub](https://github.com/zach-winkeler/combinatorial-games))
+- Creating a website to host combinatorial games ([Play](/games/index.html) | [GitHub](https://github.com/zach-winkeler/combinatorial-games))
 
 ### Demos
-- [Bezout's Identity](demos/bezout/index.html)
+- [Bezout's Identity](/demos/bezout/index.html)
