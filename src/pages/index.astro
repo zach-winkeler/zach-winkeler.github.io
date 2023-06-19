@@ -26,10 +26,11 @@ const posts = await getCollection("blog");
             <h1>Hi!</h1>
 
             <p>
-                I'm Zach, a visiting assistant professor at Smith College.
+                I'm Zach.
+                I'm a visiting assistant professor at Smith College.
                 I received my PhD from Dartmouth College last year.
                 My research is in topology, specifically knot theory, even more specifically knot homology theories.
-                I also like learning/thinking about game theory, logic, and computer science.
+                I also like thinking about game theory, logic, and computer science.
             </p>
             <!--<p>-->
             <!--  Read the posts below or check the section tabs at the top of the page for more info.-->
@@ -51,6 +52,9 @@ const posts = await getCollection("blog");
             </p>
         </section>
         <Hr/>
+        <section id="cv">
+            You can find my CV <a href="assets/cv.pdf">here</a>.
+        </section>
 
         <!--{-->
         <!--  featuredPosts.length > 0 && (-->
@@ -105,9 +109,12 @@ const posts = await getCollection("blog");
 </Layout>
 
 <style>
-    /* ===== Hero Section ===== */
-    #hero {
+    section {
         @apply pt-8 pb-6;
+    }
+
+    section h2 {
+        @apply text-2xl font-semibold tracking-wide;
     }
 
     #hero h1 {
@@ -126,12 +133,8 @@ const posts = await getCollection("blog");
         @apply my-2;
     }
 
-    #info {
-         @apply pt-8 pb-6;
-     }
-
-    #info h2 {
-        @apply text-2xl font-semibold tracking-wide;
+    #cv a {
+        @apply text-skin-base underline decoration-dashed underline-offset-8 hover:text-skin-accent
     }
 
     .social-wrapper {
