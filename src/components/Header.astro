@@ -10,8 +10,8 @@ export interface Props {
   activeNav?:
       "research"
       | "teaching"
-      | "code";
-      // | "posts";
+      | "code"
+      | "posts";
 }
 
 const { activeNav } = Astro.props;
@@ -77,11 +77,11 @@ const { activeNav } = Astro.props;
               Code
             </a>
           </li>
-          <!--<li>-->
-          <!--  <a href="/posts" class={activeNav === "posts" ? "active" : ""}>-->
-          <!--    Posts-->
-          <!--  </a>-->
-          <!--</li>-->
+          <li>
+            <a href="/posts" class={activeNav === "posts" ? "active" : ""}>
+              Posts
+            </a>
+          </li>
           <!--<li>-->
           <!--  <a href="/tags" class={activeNav === "tags" ? "active" : ""}>-->
           <!--    Tags-->

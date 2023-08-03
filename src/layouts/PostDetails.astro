@@ -21,6 +21,11 @@ const ogUrl = new URL(ogImage ? ogImage : `${title}.png`, Astro.url.origin)
   .href;
 ---
 
+<script
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+    type="text/javascript">
+</script>
+
 <Layout title={title} author={author} description={description} ogImage={ogUrl}>
   <Header />
   <div class="mx-auto flex w-full max-w-3xl justify-start px-2">
