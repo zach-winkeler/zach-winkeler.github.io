@@ -15,7 +15,7 @@ id: "teaching"
 - MTH 153 - Discrete Mathematics (Fall 2022)
 - MTH 212 - Multivariable Calculus (Fall 2022)
 - MTH 153 - Discrete Mathematics (Spring 2023)
-- MTH 254 - [Combinatorics (Spring 2023)](assets/MTH_254_Spring_2023_Lecture_Notes.pdf)
+- MTH 254 - [Combinatorics (Spring 2023)](/assets/MTH_254_Spring_2023_Lecture_Notes.pdf)
 - MTH 153 - Discrete Mathematics (Fall 2023)
 - MTH 333 - Topics in Abstract Algebra (Fall 2023)
 
