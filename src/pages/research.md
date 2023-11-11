@@ -10,8 +10,8 @@ id: "research"
 - Computing knot homologies (e.g. knot Floer homology)
 
 ### Papers
-- "Khovanov homology for links in thickened multipunctured disks" ([arXiv link](https://arxiv.org/abs/2106.03834))
-  - To appear in _Michigan Mathematical Journal_
+- "Spectral GRID invariants and Lagrangian cobordisms" (with M. Jubeir, I. Petkova, N. Schwartz, and C.-M. M. Wong, [arXiv link](https://arxiv.org/abs/2303.16130))
 - "On the invariance of the Dowlin spectral sequence" (with S. Tripp, [arXiv link](https://arxiv.org/abs/2207.14415))
   - To appear in _Algebraic & Geometric Topology_
-- "Spectral GRID invariants and Lagrangian cobordisms" (with M. Jubeir, I. Petkova, N. Schwartz, and C.-M. M. Wong, [arXiv link](https://arxiv.org/abs/2303.16130))
+- "Khovanov homology for links in thickened multipunctured disks" ([arXiv link](https://arxiv.org/abs/2106.03834))
+  - To appear in _Michigan Mathematical Journal_
