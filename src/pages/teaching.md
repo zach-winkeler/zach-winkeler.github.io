@@ -44,7 +44,7 @@ id: "teaching"
 - GIV Summer 2020 Math Immersion - Programming With Circles And Arrows
 - Dartmouth Math Department - Exploring Mathematics 2019
 - GIV Summer 2019 Math Immersion - Impartial Games
-- 
+
 ### Mentoring
 - [Summer Hybrid Undergraduate Research (SHUR) 2022](https://math.dartmouth.edu/~shur/)
 - Directed Reading Program - [Lambda Calculus and the Curry-Howard Isomorphism (Winter 2021)](https://math.dartmouth.edu/~drp/Past%20Projects.html)
