@@ -7,6 +7,10 @@ id: "teaching"
 ### Classes I've taught
 
 #### Smith College
+- MTH 212 - Multivariable Calculus (Fall 2024)
+- MTH 153 - Discrete Mathematics (Fall 2024)
+- MTH 255 - Graph Theory (Spring 2024)
+- MTH 153 - Discrete Mathematics (Spring 2024)
 - MTH 333 - Topics in Abstract Algebra (Fall 2023)
 - MTH 153 - Discrete Mathematics (Fall 2023)
 - MTH 254 - [Combinatorics (Spring 2023)](/assets/MTH_254_Spring_2023_Lecture_Notes.pdf)
