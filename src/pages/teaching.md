@@ -38,6 +38,7 @@ id: "teaching"
 - CS 2500 - Fundamentals of CS I (Fall 2014)
 
 ### Educational Outreach
+- Explore Data Science 2024 - [Risk: Using games to study human behavior](presentations/explore-data-science-2024)
 - Rainstorm Winter 2022 - How to Win at (Some) Games</li>
 - Rainstorm Summer 2021 - It's Sort Of Math
 - Rainstorm Summer 2021 - If It's Knot Theory Then What Is It?
