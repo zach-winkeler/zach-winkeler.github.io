@@ -5,15 +5,15 @@
 
 	<head>
 
-	<title>oBART: Example 1</title>
+	<title>oBART: Example 5</title>
         
 	<meta charset="utf-8" />
 	
 	<!-- these files are required for the BART to work    -->
 	<script type="text/javascript" src="src/jquery-3.0.0.min.js"></script>	<!-- basic javascript library for dom manipulation -->
 	<script type="text/javascript" src="src/jcanvas.min.js"></script>      	<!-- the canvas plugin -->
-	<script type="text/javascript" src="src/jquery.bart.js"></script>              <!-- the main BART plugin -->
-	<link rel="stylesheet" type="text/css" href="src/jquery.bart.css" />        <!-- additional styles for to make the BART look fancy -->
+	<script type="text/javascript" src="src/jquery.bart.js"></script>       <!-- the main BART plugin -->
+	<link rel="stylesheet" type="text/css" href="src/jquery.bart.css" />    <!-- additional styles for to make the BART look fancy -->
         
 	<!-- additional scripts to run the demo on this page -->
 	<script type="text/javascript">
@@ -22,18 +22,40 @@
 		// initialize the BART after the page has loaded
 		$(document).ready(function() {
 		
-			// create a BART with default values using 10 balloons
-			$("#bart").bart( 10 );
+			// create a BART with 5 balloons
+			$("#bart").bart( { b: 5,                    // create 5 balloons
+					   o: { color: '#FF7B00',   // color of balloons
+					        earnings: 10,       // points earned for each pump
+					        popprob: 100        // probability of popping; defined as 1 out of popprop
+					      },
+					   s: { showpumpcount: true,                             // show number of pumps 
+  					        showballooncount:  true,                         // show number of balloons
+						showcurrentearned: true,                         // show potential earnings
+						showtotalearned: true,                           // show total earnings
+						showpopprob: true,                               // show probability of explosion
+						showpumpsused: false,                            // show percentage of pumps used
+						txt_cashin: '$$ Cash in $$',                     // text on 'Cash in' button
+						txt_inflate: 'Inflate balloon',                  // text on 'Inflate' button
+						txt_next:    'Next balloon',                     // text on 'Next' button
+						txt_balloon_number: 'Balloon number: ',          // text for balloon number
+						txt_number_of_pumps: 'Number of pumps: ',        // text for number of pumps
+						txt_current_earned: 'Current earned: ',          // text for current earnings
+						txt_total_earned: 'Total earned: ',              // text for total earnings
+						txt_prob_explosion: 'Probability of explosion:', // text for probability of explosion
+						txt_pumps_used: 'Max. available pumps used:'     // text for percentage of used pumps
+					      }
+					 } );
 		});
 	
 	//]]>
 	</script>
     
 	</head>
+	
 	<body>
 
 	<h1 style="text-align:center;">Online Balloon Analogue Risk Task (oBART)</h1>
-	<h2 style="text-align:center;">Example 1</h2>
+	<h2 style="text-align:center;">Example 5</h2>
                         
 	<!-- load BART here -->
 	<div id="bart" style="margin: auto; text-align: center;"></div>
@@ -73,11 +95,33 @@
 <pre><code>
 &lt;script type="text/javascript"&gt;
 	$(document).ready(function() {   // initialize the BART after the page has loaded
-		$("#bart").bart( 10 );   // create a BART with default values using 10 balloons
+		// create a BART with 5 balloons
+		$("#bart").bart( { b: 5,                    // create 5 balloons
+				   o: { color: '#FF7B00',   // color of balloons
+					earnings: 10,       // points earned for each pump
+					popprob: 100        // probability of popping; defined as 1 out of popprop
+				      },
+				   s: { showpumpcount: true,                             // show number of pumps 
+  				        showballooncount:  true,                         // show number of balloons
+				        showcurrentearned: true,                         // show potential earnings
+					showtotalearned: true,                           // show total earnings
+					showpopprob: true,                               // show probability of explosion
+					showpumpsused: false,                            // show percentage of pumps used
+					txt_cashin: '$$ Cash in $$',                     // text on 'Cash in' button
+					txt_inflate: 'Inflate balloon',                  // text on 'Inflate' button
+					txt_next:    'Next balloon',                     // text on 'Next' button
+					txt_balloon_number: 'Balloon number: ',          // text for balloon number
+					txt_number_of_pumps: 'Number of pumps: ',        // text for number of pumps
+					txt_current_earned: 'Current earned: ',          // text for current earnings
+					txt_total_earned: 'Total earned: ',              // text for total earnings
+					txt_prob_explosion: 'Probability of explosion:', // text for probability of explosion
+					txt_pumps_used: 'Max. available pumps used:'     // text for percentage of used pumps
+				      }
+				  } );
 	});
 &lt;/script&gt;
 </pre></code>
-		If only a single number is passed to the <code>bart()</code>-function, the number indicates the number of balloons.
+		The element <code>s</code> can also be used to specify the information displayed on the test.
 		</li>
 	</ol>
 	
