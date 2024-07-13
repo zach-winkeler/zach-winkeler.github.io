@@ -19,3 +19,7 @@ Here are some links to things that we used in our presentation "Risk: Using game
 Interested in learning more about psychology, math, and/or decision-making? Check out the links below!
 
 - [How to analyze fMRI data with SPM](https://andysbrainbook.readthedocs.io/en/latest/SPM/SPM_Short_Course/SPM_fMRI_Intro.html)
+- [Participate in a VT study!](https://fbri.vtc.vt.edu/research/labs/chiu.html#participate)
+- [MRI safety video/how an MRI works](https://www.youtube.com/watch?v=Fpnu-12frh4)
+- [What happens when you put metal in an MRI](https://www.youtube.com/watch?v=ug3e9W5H0jI)
+- [Also what happens when you put metal in an MRI](https://www.youtube.com/watch?v=6BBx8BwLhqg)
