@@ -10,6 +10,7 @@ id: "research"
 - Computing knot homologies (e.g. knot Floer homology)
 
 ### Publications
+- "Khovanov homology and Lagrangian cobordisms" (with G. Martin and I. Petkova, [arXiv link](https://arxiv.org/abs/2412.15351))
 - "Spectral GRID invariants and Lagrangian cobordisms" (with M. Jubeir, I. Petkova, N. Schwartz, and C.-M. M. Wong, [arXiv link](https://arxiv.org/abs/2303.16130))
   - To appear in _Studia Scientiarum Mathematicarum Hungarica_
 - "On the invariance of the Dowlin spectral sequence" (with S. Tripp, [arXiv link](https://arxiv.org/abs/2207.14415))
