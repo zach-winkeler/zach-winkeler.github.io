@@ -23,15 +23,18 @@ const sortedPosts = getSortedPosts(posts);
     <Header/>
     <main id="main-content">
         <section id="hero">
-            <h1>Hi!</h1>
-
-            <p>
+          <div class="imageflex" >
+            <img src="assets/portrait.jpg"  alt="Portrait photo" width=200px />
+            <div style="margin-left:20px">
+              <h1 style="margin-top: 0">Hi!</h1>
+              <p>
                 I'm Zach.
                 I'm a lecturer at Colby College. Before that, I was a visiting assistant professor at Smith College.
                 I received my PhD from Dartmouth College in 2022.
-                My research is in topology, specifically knot theory, even more specifically knot homology theories.
-                I also like thinking about game theory, logic, and computer science.
-            </p>
+                My research is in knot theory, and I also like thinking about game theory, logic, and computer science.
+              </p>
+            </div>
+          </div>
         </section>
         <Hr/>
         <section id="info">
@@ -154,5 +157,10 @@ const sortedPosts = getSortedPosts(posts);
 
     .all-posts-btn-wrapper {
         @apply my-8 text-center;
+    }
+
+    .imageflex {
+        @apply flex;
+        align-items: flex-start;
     }
 </style>
