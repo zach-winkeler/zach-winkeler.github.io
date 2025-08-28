@@ -6,6 +6,9 @@ id: "teaching"
 
 ### Classes I've taught
 
+#### Colby College
+- MA 160 - Series and Multivariable Calculus (Fall 2025)
+
 #### Smith College
 - MTH 212 - Multivariable Calculus (Spring 2025)
 - MTH 153 - Discrete Mathematics (Spring 2025)
@@ -40,6 +43,7 @@ id: "teaching"
 - CS 2500 - Fundamentals of CS I (Fall 2014)
 
 ### Educational Outreach
+- Rainstorm 2025
 - Explore Data Science 2024 - [Risk: Using games to study human behavior](/presentations/explore-data-science-2024)
 - Rainstorm Winter 2022 - How to Win at (Some) Games</li>
 - Rainstorm Summer 2021 - It's Sort Of Math
