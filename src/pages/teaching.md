@@ -7,6 +7,7 @@ id: "teaching"
 ### Classes I've taught
 
 #### Colby College
+- MA 130 - Single-Variable Calculus I Revisited (Spring 2026)
 - MA 160 - Series and Multivariable Calculus (Fall 2025)
 
 #### Smith College
